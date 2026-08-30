@@ -265,10 +265,10 @@
   }
 
   /* Mission / Vision cards */
-  .mv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 40px; }
+  .mv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 60px; }
   .mv-card {
-    padding: 28px 190px;
     height: 400px;
+    padding: 20px 190px;
     border-top: 3px solid var(--teal);
     background: #fff;
     box-shadow: 0 2px 20px rgba(16,72,104,.07);
