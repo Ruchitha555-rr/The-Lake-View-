@@ -267,7 +267,7 @@
   /* Mission / Vision cards */
   .mv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 40px; }
   .mv-card {
-    padding: 28px 24px;
+    padding: 28px 190px;
     border-top: 3px solid var(--teal);
     background: #fff;
     box-shadow: 0 2px 20px rgba(16,72,104,.07);
@@ -280,7 +280,7 @@
   .mv-card.dark .mv-label { color: rgba(180,220,240,.7); }
   .mv-title { font-family: 'Playfair Display', serif; font-size: 18px; color: var(--teal-dark); margin-bottom: 10px; }
   .mv-card.dark .mv-title { color: #fff; }
-  .mv-text { font-size: 13.5px; font-weight: 300; line-height: 1.75; color: var(--text-mid); }
+  .mv-text { font-size: 20px; font-weight: 400; line-height: 1.15; text-align: justify; width: 100%; max-width: 100; margin: 0; overflow-wrap: break-word;}
 
   /* Core values strip */
   .values-strip {
